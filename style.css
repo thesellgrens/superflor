@@ -99,6 +99,7 @@ h3 {
     width: 600px;
     max-width: 100%;
     margin: 50px auto;
+    display: block;
     /* Will shrink to fit screen */
 }
 
@@ -106,7 +107,7 @@ h3 {
 
 .section-separator img {
     width: 100%;
-    max-width: 300px;
+    max-width: 70%;
     margin: 20px auto;
     display: block;
     padding: 50px;
