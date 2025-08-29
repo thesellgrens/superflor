@@ -19,16 +19,37 @@ header {
 
 
 /* 🔹 Add custom font */
+/* Superman-style font */
 @font-face {
-    font-family: 'Revue';
-    src: url('fonts/revue.woff2') format('woff2'),
-        url('fonts/revue.woff') format('woff'),
-        url('fonts/revue.ttf') format('truetype');
+    font-family: 'Super Squad';
+    src: url('fonts/super_squad.woff2') format('woff2'),
+        url('fonts/super_squad.woff') format('woff'),
+        url('fonts/super_squad.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Comic-style font */
+@font-face {
+    font-family: 'Badaboom';
+    src: url('fonts/badaboom.woff2') format('woff2'),
+        url('fonts/badaboom.woff') format('woff'),
+        url('fonts/badaboom.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 h1,
 h2 {
-    font-family: 'Revue', sans-serif;
+    font-family: 'Super Squad', sans-serif;
+    letter-spacing: 1.5px;
+    /* Adds space between letters */
+}
+
+.bouncing-text {
+    font-family: 'Badaboom', sans-serif;
+    letter-spacing: 3px;
+    /* Adds space between letters */
 }
 
 h1 {
@@ -77,7 +98,7 @@ h3 {
 .movie-night img {
     width: 600px;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 50px auto;
     /* Will shrink to fit screen */
 }
 
@@ -85,7 +106,7 @@ h3 {
 
 .section-separator img {
     width: 100%;
-    max-width: 200px;
+    max-width: 300px;
     margin: 20px auto;
     display: block;
     padding: 50px;
